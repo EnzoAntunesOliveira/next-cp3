@@ -19,9 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col h-screen">
-        <Header/>   
+        <Header/> 
         {children}
         <Footer/>
+
         </body>
     </html>
   );
